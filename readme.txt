@@ -5,8 +5,8 @@ License: GPLv3
 License URI: http://www.gnu.org/copyleft/gpl.html
 Tags: kannada, unicode, literary, poem, widget
 Requires at least: 2.9
-Tested up to: 3.4.1
-Stable tag: 1.0
+Tested up to: 3.4.2
+Stable tag: 1.1
 
 Show a random verse from Mankutimmana Kagga written by D.V.G on your website!
 
@@ -33,18 +33,23 @@ Most of the poems are taken from <a href="http://wordsofwisdom.in/mankutimmanaka
 == Frequently Asked Questions ==
 
 = How many poems are there? =
-There are actually 945 peoms in Mankutimmana Kagga. But this plugin has just over 100 poems. I'll add more poems in the future updates.
+There are actually 945 peoms in Mankutimmana Kagga. But this plugin has just over 200 poems. I'll add more poems in the future updates.
 
 = How to style the widget? =
-The poem output wrapped in `<p>` tag with `kagga` ID. Use `#kagga` in your Custom CSS to style it.
+The poem output wrapped in `<p>` tag with `kagga` ID and class. Use `#kagga` or `.kagga` in your Custom CSS to style it.
 
 = Can I add more poems to this plugin? =
-Yeah, sure! You can add more poems to this plugin. Just open `kagga.php` and look how I've coded. Once you feel you are comfortable, add more poems and send me back the file. I'll upload them to wordpress plugin repository.
+Yeah, sure! You can add more poems to this plugin. Just open `kagga.txt` and add new kaggas at the bottom of the file. If you send me the updated file, I'll upload it to wordpress plugin repository.
 
 = How can I contact you? =
 Use my <a href="http://www.prasannasp.net/contact/">contact form</a> to shoot me an email.
 
 == Changelog ==
+
+= 1.1 =
+
+* Added 100 more kaggas
+* Moved kaggas to a separate file (kagga.txt)
 
 = 1.0 =
 
